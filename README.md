@@ -1,4 +1,4 @@
-20191618 Shin Hyeeun
+20191618 Hye eun Shin
 
 <<<<<<< HEAD
 Kookmin Univ. SW
