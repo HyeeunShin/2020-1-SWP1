@@ -1,7 +1,5 @@
-my name is hyeeun
+20191618 Shin Hyeeun
 
-Second commit : 2019	1618
-Change commit msg
-ah 이제 알겠다 
+Kookmin Univ. SW
 
-다른 사람이 와서 수정했어요
+SWP1/OOP/Captstone/SE
