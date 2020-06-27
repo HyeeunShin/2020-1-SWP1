@@ -9,7 +9,8 @@ html= """
                 <p>
                 sum : %(sum)i</br>
                 multi : %(multi)i</br>
-                </p>
+                %(txt)s</br>     
+		 </p>
         </body>
 
 </html>

@@ -10,19 +10,20 @@ def application(environ, start_response):
         b = d.get('b', [''])[0]
 
         sum = 0
-
         multi = 0
-
-        if '' not in [a,b]:
+	Message = {'success': 'Success!', 'ValueError!' : 'Enter Number!'}
+	try:
                 a,b = int(a) , int(b)
-
-
                 sum = a + b
                 multi = a * b
+		txt = Message['success']
+	except ValueError:
+		txt = Message['ValueError']
 
         response_body = html % {
                 'sum' : sum,
                 'multi' : multi,
+		'txt' : txt,
         }
 
         start_response('200 OK', [
