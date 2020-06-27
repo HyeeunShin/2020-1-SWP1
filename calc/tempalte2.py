@@ -2,8 +2,8 @@ html= """
 <html>
         <body>
                 <form action = "">
-                        a : <input type = "number" name = "a" ><br>
-                        b : <input type = "number" name = "b" ><br>
+                        a : <input type = "string" name = "a" ><br>
+                        b : <input type = "string" name = "b" ><br>
                         <input type = "submit">
                 </form>
                 <p>
