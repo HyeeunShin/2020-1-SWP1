@@ -12,7 +12,7 @@ def application(environ, start_response):
         sum = 0
         multi = 0
 	txt = ''
-	Message = {'success': 'Success!', 'ValueError!' : 'Enter the Number!'}
+	Message = {'success': 'SUCCESS!', 'ValueError' : 'ONLY NUMBER!'}
 	if '' not in [a,b]:
 		try:
         	        a,b = float(a) ,float(b)
