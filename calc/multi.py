@@ -11,6 +11,7 @@ def application(environ, start_response):
 
         sum = 0
         multi = 0
+	txt = ''
 	Message = {'success': 'Success!', 'ValueError!' : 'Enter the Number!'}
 	if '' not in [a,b]:
 		try:
