@@ -21,6 +21,8 @@ def application(environ, start_response):
 			txt = Message['success']
 		except ValueError:
 			txt = Message['ValueError']
+	else:
+		txt = 'Please Enter The Numbers!'
 
         response_body = html % {
                 'sum' : sum,
