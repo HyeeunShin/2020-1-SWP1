@@ -11,7 +11,7 @@ def application(environ, start_response):
 
         sum = 0
         multi = 0
-	Message = {'success': 'Success!', 'ValueError!' : 'Enter Number!'}
+	Message = {'success': 'Success!', 'ValueError!' : 'Error: Enter the Number!'}
 	try:
                 a,b = float(a) ,float(b)
                 sum = a + b
