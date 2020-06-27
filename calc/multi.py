@@ -12,13 +12,14 @@ def application(environ, start_response):
         sum = 0
         multi = 0
 	Message = {'success': 'Success!', 'ValueError!' : 'Enter the Number!'}
-	try:
-                a,b = float(a) ,float(b)
-                sum = a + b
-                multi = a * b
-		txt = Message['success']
-	except ValueError:
-		txt = Message['ValueError']
+	if '' not in [a,b]:
+		try:
+        	        a,b = float(a) ,float(b)
+                	sum = a + b
+                	multi = a * b
+			txt = Message['success']
+		except ValueError:
+			txt = Message['ValueError']
 
         response_body = html % {
                 'sum' : sum,
