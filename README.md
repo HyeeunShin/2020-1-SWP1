@@ -2,4 +2,4 @@
 
 Kookmin Univ. SW
 
-SWP1/OOP/Captstone/SE
+SWP1
